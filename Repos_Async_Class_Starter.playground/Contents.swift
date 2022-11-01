@@ -41,7 +41,7 @@ Task {
     print("Step 3: loop over repos")
     for repo in arrayRepos
     {
-      print("- \(repo.name): \(repo.htmlURL)")
+      print("\(repo.name): \(repo.htmlURL)")
     }
     
     print("step4: task ends")
